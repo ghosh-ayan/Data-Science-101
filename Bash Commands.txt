@@ -87,6 +87,42 @@ AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparati
 $ git push
 Everything up-to-date
 
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Bash Commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git add "Bash Commands.txt"
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git commit -m "Updated Bash Commands to include setting remote as upstream"
+[master 06c820b] Updated Bash Commands to include setting remote as upstream
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 613 bytes | 613.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ghosh-ayan/Data-Science-101.git
+   dd4ef9e..06c820b  master -> master
+
+AG16979@LC8RP8S2 MINGW64 ~/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git commit -a -m "Testing Direct Commit to Bash Commands.txt"
+
+
 
 
 
