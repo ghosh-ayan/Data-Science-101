@@ -1,0 +1,74 @@
+/C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code
+
+README.md
+
+
+https://github.com/ghosh-ayan/Data-Science-101.git
+
+git remote add origin https://github.com/ghosh-ayan/Data-Science-101.git
+
+git remote -v
+
+git push origin master
+
+# Will not work without SSH	
+
+ssh-keygen -t rsa -b 4096 -C "achilles.ayan@gmail.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+
+Enter file in which to save the key (/c/Users/ag16979/.ssh/id_rsa):
+Created directory '/c/Users/ag16979/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/ag16979/.ssh/id_rsa
+Your public key has been saved in /c/Users/ag16979/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:J1vQb8QRyxyDgdtzXsQcnYRveKLlJQq6REXtcGbLois achilles.ayan@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|        .ooo=+++.|
+|        .+.O *+..|
+|        ooO B.o  |
+|       ..+o*.=.= |
+|      . S =+B.*  |
+|       + = +..   |
+|      . +        |
+|     E o         |
+|      .          |
++----[SHA256]-----+
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ eval $(ssh-agent -s)
+Agent pid 140
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/ag16979/.ssh/id_rsa (achilles.ayan@gmail.com)
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ tail ~/.ssh/id_rsa.pub
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$ git push --force origin master
+Enumerating objects: 1592, done.
+Counting objects: 100% (1592/1592), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (1581/1581), done.
+Writing objects: 100% (1592/1592), 3.37 MiB | 1.40 MiB/s, done.
+Total 1592 (delta 571), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (571/571), done.
+To https://github.com/ghosh-ayan/Data-Science-101.git
+ + a15bce1...c85e5ab master -> master (forced update)
+
+AG16979@LC8RP8S2 MINGW64 /C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
+$
+
+
+
+
+
+
