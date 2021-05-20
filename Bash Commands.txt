@@ -122,6 +122,8 @@ To https://github.com/ghosh-ayan/Data-Science-101.git
 AG16979@LC8RP8S2 MINGW64 ~/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code (master)
 $ git commit -a -m "Testing Direct Commit to Bash Commands.txt"
 
+--New Set up done of MS Surface---
+
 
 
 
