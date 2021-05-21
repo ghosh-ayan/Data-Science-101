@@ -1,6 +1,28 @@
-/C/Users/ag16979/OneDrive - Anthem/Desktop/MS Preparation Docs/Python code
 
-README.md
+
+Download and Install Git
+Create a folder for all different Git repositories
+Fire up Git Bash -
+1) Set up user.name and user.email
+git config --global user.name <git-hub user name>
+git config --global user.email <git-user-email>
+
+Next there are 2 options of starting a gitrepo:
+1) Clone at existing repo from github by copying the url. Go to the GitRepo folder. Fire up Git Bash.
+git clone https://github.com/ghosh-ayan/Data-Science-101.git
+This will create the folder(repo) inside your GitRepo folder with git initialized.
+
+2) Create a local repo and push it to Github. Create a local project folder. Fire up Git Bash there.
+git init
+git add .
+git commit -m 'Initial Commit'
+
+Then create a new github repository at github and link it to the local using 'git remote add origin'
+copy the url.
+git remote add origin <url of remote repo>
+git remote -v (to check if its linked now)
+git status (to see if everything is ready to push)
+git push origin master
 
 
 https://github.com/ghosh-ayan/Data-Science-101.git
