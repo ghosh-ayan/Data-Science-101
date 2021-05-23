@@ -146,6 +146,9 @@ $ git commit -a -m "Testing Direct Commit to Bash Commands.txt"
 
 --New Set up done of MS Surface---
 
+To do:
+Create Python Pipeline for EDA
+
 
 
 
